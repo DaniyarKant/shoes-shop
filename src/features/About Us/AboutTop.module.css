@@ -1,0 +1,46 @@
+.container {
+    background: #d7d7d7;
+    width: 100%;
+    height: 210.55px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    padding-top: 81.5px;
+    padding-bottom: 81.5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper div {
+    display: flex;
+}
+
+.wrapper div p {
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+    margin-right: 5px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.wrapper a:hover {
+    color: #ff7004;
+}
+
+.bigText {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,41 @@
+.product {
+    width: 267px;
+    height: 430px;
+    padding-right: 16.5px;
+    padding-left: 16.5px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 270px;
+    height: 274px;
+    border: 1px solid rgb(207, 204, 204);
+    border-radius: 13px;
+}
+
+.product p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.product h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.product span {
+    color: #666;
+}
+
+.product button {
+    display: block;
+    background-color: #eb3e32;
+    border: 2px solid #eb3e32;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    padding: 10px 40px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}

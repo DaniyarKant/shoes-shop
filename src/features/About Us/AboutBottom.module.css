@@ -1,0 +1,39 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    height: 548px;
+    align-items: center;
+}
+
+.leftSide {
+    width: 600px;
+    height: 348px;
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.leftSide p {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.leftSide h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.rightSide {
+    width: 600px;
+    height: 330px;
+}
+
+.rightSide img {
+    width: 550px;
+    height: 320px;
+    padding-left: 15px;
+}

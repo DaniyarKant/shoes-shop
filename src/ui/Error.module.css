@@ -1,0 +1,14 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.container {
+    box-shadow: 2px 2px 8px #0003;
+    background: #fff;
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #474747;
+    max-width: 570px;
+}

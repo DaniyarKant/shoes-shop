@@ -1,0 +1,43 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    height: 700px;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+.leftDiv {
+    width: 570px;
+    height: 700px;
+    padding-right: 30px;
+}
+
+.content {
+    padding: 53px 0 0 70px;
+}
+
+.content h2 {
+    color: #333131;
+    font-size: 60px;
+    margin: 0;
+}
+
+.content p {
+    color: #595858;
+    font-size: 24px;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+}
+
+.content button {
+    background-color: #eb3e32;
+    border: 2px solid #eb3e32;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    padding: 22px 62px 21px;
+    cursor: pointer;
+}

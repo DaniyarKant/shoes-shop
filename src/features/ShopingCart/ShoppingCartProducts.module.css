@@ -1,0 +1,139 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.productTitle {
+    width: 1170px;
+    height: 30px;
+    padding: 13px 0;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #b5b3b3;
+}
+.productTitle tr th {
+    border-radius: 0;
+    color: #333131;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+
+.productRemove {
+    width: 30px;
+    text-align: left;
+}
+.productRemove img {
+    width: 15px;
+    height: 16px;
+}
+.productRemove button {
+    background: none;
+    border: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+.productThumb {
+    width: 110px;
+}
+.productThumb img {
+    width: 90px;
+    height: 110px;
+}
+.productName {
+    width: 533px;
+    text-align: left;
+}
+.productPrice {
+    width: 196px;
+}
+.productQuantity {
+    width: 99.5px;
+}
+
+.productSubtotal {
+    width: 201px;
+}
+
+.productItems {
+    width: 1170px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.productItems tr {
+    display: flex;
+    align-items: center;
+}
+
+.productItems tr th {
+    color: #787878;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.buttonContainer div {
+    display: inline;
+    padding: 7px;
+    font-size: 16px;
+    background-color: #ecf0f1;
+    border-left: 2px solid #1a1a1a;
+    border-right: 2px solid #1a1a1a;
+}
+
+.buttonContainer button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    border-radius: 0;
+    outline: none;
+}
+
+.orderProduct {
+    width: 400px;
+    margin-bottom: 70px;
+}
+
+.orderProduct h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.orderProduct button {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 30px 15px;
+    background-color: #232324;
+    border-color: #232324;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+}
+
+.formControl {
+    border-radius: 0;
+    border: 1px solid #e8e8e8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333131;
+    font-size: 12px;
+    height: 50px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    width: 300px;
+}

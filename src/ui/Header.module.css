@@ -1,0 +1,51 @@
+.headerMenu {
+    background: #2f333a;
+    height: 60px;
+    width: 100%;
+}
+.headerWrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 60px;
+}
+.headerWrapper ul {
+    display: flex;
+    list-style: none;
+}
+.headerWrapper ul li {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+.headerWrapper ul li:hover {
+    color: #ff7004;
+}
+.headerWrapper div {
+    display: flex;
+    align-items: center;
+}
+.headerWrapper div p {
+    color: white;
+    margin-right: 10px;
+}
+.headerWrapper div button {
+    all: unset;
+    cursor: pointer;
+    color: white;
+}
+.headerWrapper div img {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+.headerBorder {
+    border-right: 2px solid white;
+    padding-right: 15px;
+}
